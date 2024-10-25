@@ -27,7 +27,7 @@ body {
 
 @media (max-width: 678px) {
    .quiz-app {
-      width: 375px;
+      width: 356px;
       margin-top: 40px;
    }
 }
