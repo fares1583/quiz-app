@@ -178,10 +178,6 @@ function checkAnswer(rightAnswer: string, questionsCount: number) {
         // console.log("Correct answer!");
         totalRightAnswers++;
         // console.log("total right answers is :", totalRightAnswers);
-      } else {
-        totalRightAnswers > 0 ? totalRightAnswers-- : null;
-        // console.log("Wrong answer!");
-        // console.log("total right answers is :", totalRightAnswers);
       }
       break;
     }
