@@ -1,0 +1,17 @@
+{
+	"editor.formatOnSave": true,
+	"cSpell.autoFormatConfigFile": true,
+	"prettier.enable": true,
+	"prettier.experimentalTernaries": false,
+	"prettier.insertPragma": false,
+	"prettier.requireConfig": false,
+	"vs-code-prettier-eslint.prettierLast": false,
+	"prettier.bracketSameLine": false,
+	"notebook.defaultFormatter": "rvest.vs-code-prettier-eslint",
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"prettier.withNodeModules": false,
+	"prettier.vueIndentScriptAndStyle": false,
+	"prettier.useTabs": false,
+	"prettier.enableDebugLogs": false,
+	"prettier.jsxSingleQuote": false
+}

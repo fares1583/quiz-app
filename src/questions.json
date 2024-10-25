@@ -1,0 +1,135 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "category": "Programming",
+      "level": "Normal",
+      "question": "What does HTML stand for?",
+      "options": {
+        "a": "Hyper Text Markup Language",
+        "b": "Home Tool Markup Language",
+        "c": "Hyperlinks and Text Markup Language",
+        "d": "Hyper Trainer Marking Language"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 2,
+      "category": "Programming",
+      "level": "Normal",
+      "question": "Which company developed Java?",
+      "options": {
+        "a": "Microsoft",
+        "b": "Google",
+        "c": "Sun Microsystems",
+        "d": "Apple"
+      },
+      "answer": "c"
+    },
+    {
+      "id": 3,
+      "category": "Programming",
+      "level": "Normal",
+      "question": "What does CSS stand for?",
+      "options": {
+        "a": "Cascading Style Sheets",
+        "b": "Creative Style System",
+        "c": "Computer Style Sheets",
+        "d": "Control Style Syntax"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 4,
+      "category": "Programming",
+      "level": "Normal",
+      "question": "Which of the following is a JavaScript framework?",
+      "options": {
+        "a": "Angular",
+        "b": "Python",
+        "c": "Django",
+        "d": "Flask"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 5,
+      "category": "Programming",
+      "level": "Normal",
+      "question": "Which data structure uses FIFO (First In First Out)?",
+      "options": {
+        "a": "Stack",
+        "b": "Queue",
+        "c": "Array",
+        "d": "Linked List"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 6,
+      "category": "Programming",
+      "level": "Normal",
+      "question": "In Python, what is used to define a block of code?",
+      "options": {
+        "a": "Braces",
+        "b": "Indentation",
+        "c": "Parentheses",
+        "d": "Quotes"
+      },
+      "answer": "b"
+    },
+    {
+      "id": 7,
+      "category": "Programming",
+      "level": "Normal",
+      "question": "What is the output of 'console.log(typeof NaN);' in JavaScript?",
+      "options": {
+        "a": "Number",
+        "b": "NaN",
+        "c": "Undefined",
+        "d": "Null"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 8,
+      "category": "Programming",
+      "level": "Normal",
+      "question": "What is the purpose of the 'git init' command?",
+      "options": {
+        "a": "Create a new Git repository",
+        "b": "Clone an existing repository",
+        "c": "Commit changes to the repository",
+        "d": "Show the status of the repository"
+      },
+      "answer": "a"
+    },
+    {
+      "id": 9,
+      "category": "Programming",
+      "level": "Normal",
+      "question": "Which method is used to add an element to an array in JavaScript?",
+      "options": {
+        "a": "add()",
+        "b": "append()",
+        "c": "push()",
+        "d": "insert()"
+      },
+      "answer": "c"
+    },
+    {
+      "id": 10,
+      "category": "Programming",
+      "level": "Normal",
+      "question": "Which of the following is a non-relational database?",
+      "options": {
+        "a": "MySQL",
+        "b": "MongoDB",
+        "c": "PostgreSQL",
+        "d": "SQLite"
+      },
+      "answer": "b"
+    }
+
+  ]
+}
