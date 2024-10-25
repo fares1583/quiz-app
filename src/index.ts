@@ -215,7 +215,7 @@ function countDown() {
     clearInterval(countdownInterval);
   }
 
-  let totalSeconds = 6;
+  let totalSeconds = 60;
 
   // Set initial time display
   let min: number | string = Math.floor(totalSeconds / 60);
