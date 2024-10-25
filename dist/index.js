@@ -179,7 +179,7 @@ function countDown() {
     if (countdownInterval) {
         clearInterval(countdownInterval);
     }
-    let totalSeconds = 6;
+    let totalSeconds = 60;
     // Set initial time display
     let min = Math.floor(totalSeconds / 60);
     let sec = totalSeconds % 60;
