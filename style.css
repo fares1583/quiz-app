@@ -25,6 +25,14 @@ body {
 
 }
 
+@media (max-width: 678px) {
+   .quiz-app {
+      width: 390px;
+      margin-top: 40px;
+   }
+}
+
+
 .quiz-app .quiz-app-header {
    background-color: #CAD2C5;
    padding: 15px 20px;
