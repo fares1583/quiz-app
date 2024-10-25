@@ -158,3 +158,17 @@ body {
    font-size: 18px;
 
 }
+
+
+
+button.reload {
+   background-color: #345f64;
+   transition: 0.3s;
+
+}
+
+button.reload:hover {
+   background-color: #203c3f;
+   box-shadow: none;
+
+}

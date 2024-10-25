@@ -13,9 +13,11 @@ let quizBody = document.querySelector(".quiz-body ");
 let rate = document.querySelector(".rate ");
 let quizFooter = document.querySelector(".quiz-footer ");
 let bullets = document.querySelector(".quiz-app .bullets");
+let quizApp = document.querySelector(".quiz-app ");
 let questionContent = document.querySelector(".quiz-app .quiz-body .question h3");
 let ulElement = document.querySelector("ul.answers");
 let submitBtn = document.querySelector("button");
+// let reloadBtn: HTMLButtonElement = document.querySelector(".reload")!;
 let qCount = 0;
 let questionsData = [];
 let rightAnswer;
@@ -165,6 +167,14 @@ function showResult() {
     color: #0c7a1c;
     user-select: none;
     cursor: pointer;">You Got ${totalRightAnswers} Out Of  ${questionsData.length}  Questions Right! </div>`;
+    // start a new quiz btn handling
+    const reloadBtn = document.createElement("button");
+    reloadBtn.className = "reload"; // Add class
+    reloadBtn.textContent = "Start a new quiz"; // Set button text
+    quizApp.appendChild(reloadBtn);
+    reloadBtn.addEventListener("click", function () {
+        window.location.reload();
+    });
 }
 // count down handling
 let countdownInterval;
